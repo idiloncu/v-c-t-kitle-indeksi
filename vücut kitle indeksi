@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class vki {
+    public static void main(String[] args) {
+        double kg,boy,vki;
+        Scanner inpt=new Scanner(System.in);
+
+        System.out.println("kilonuz: ");
+        kg=inpt.nextDouble();
+
+        System.out.println("Boyunuz(m cinsinden): ");
+        boy=inpt.nextDouble();
+
+        vki=kg / (boy*boy);
+        System.out.println("Vucut kitle indeksiniz: "+vki);
+
+    }
+}
